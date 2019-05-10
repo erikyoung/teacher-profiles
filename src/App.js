@@ -13,11 +13,9 @@ function App() {
   return (
     <Router>
       <main>
+        <Navbar />
         <Switch>
-            <Navbar />
-
             
-              
               <Route path='/' exact component={Home} />
               <Route path='/teachers' exact component={Teachers} />
               <Route path='/teachers/:id' component={SingleTeachers} />
@@ -28,7 +26,7 @@ function App() {
       </main>
     </Router>
 
-   
+
     
   );
 }

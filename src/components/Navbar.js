@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
     return (
      <nav className="navbar navbar-expand-lg navbar-light">
-     	<Link to='/' classNamve="navbar-brand">
+     	<Link to='/' className="navbar-brand">
      		<img src={logo} alt="logo" />
      	</Link>
      	<div className="collapse navbar-collapse show ml-sm-5">
@@ -21,7 +21,7 @@ export default function Navbar() {
      			</li>
      		</ul>
      	</div>
-     </nav>
+     </nav> 
     );
   
 }

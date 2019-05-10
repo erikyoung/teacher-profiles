@@ -1,4 +1,6 @@
 
+
+
 h1 {
   font-family: 'Gill Sans', serif;
 }
@@ -7,6 +9,27 @@ h3, p {
   font-family: 'Montserrat', serif;
 }
 
-h1 {
-	color:black;
+
+
+.header-hero {
+	height: 100vh;
+	color:white;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background-size: cover;
+	min-height: calc(100vh - 56px);
+	background: url('./images/background-image.png') center/cover no-repeat; 
+	background-color: #122344;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
 }
